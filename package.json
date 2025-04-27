@@ -1,0 +1,43 @@
+{
+  "name": "grid-selection-cli",
+  "version": "1.0.0",
+  "description": "Grid selection component with CLI tool",
+  "type": "commonjs",
+  "bin": {
+    "grid-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "standard",
+    "fix": "standard --fix"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "domql": "^1.6.71",
+    "lodash": "^4.17.21",
+    "preact": "^10.26.5",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "parcel": "^2.10.3",
+    "standard": "^17.1.0",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhavi-Bhatt/Gridselector-cli.git"
+  },
+  "keywords": [
+    "gridselector",
+    "symbol"
+  ],
+  "author": "Madhavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhavi-Bhatt/Gridselector-cli/issues"
+  },
+  "homepage": "https://github.com/Madhavi-Bhatt/Gridselector-cli#readme"
+}
