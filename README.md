@@ -13,7 +13,11 @@ A command-line interface tool for grid selection with an interactive web compone
 ## Installation
 
 ```bash
+# Install the package
 npm install grid-selection-cli
+
+# Install CLI tool globally
+npm install -g .
 ```
 
 ## Usage
@@ -27,7 +31,7 @@ grid-cli
 
 Create a grid with custom dimensions:
 ```bash
-grid-cli --columns 20 --rows 15
+grid-cli create -x 20 -y 15
 ```
 
 Export selected grid data:
@@ -96,6 +100,7 @@ cd Gridselector-cli
 2. Install dependencies:
 ```bash
 npm install
+npm install -g - install cli tool globally
 ```
 
 ### Available Scripts
